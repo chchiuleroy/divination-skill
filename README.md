@@ -131,7 +131,7 @@ Cross-analysis rules:
 
 ## Installation
 
-1. Copy `skill.md` to `.claude/skills/divination/skill.md`
+1. Copy `skill.md` to `skill.md`
 2. Place `tarot_cli.py`, `tarot_cards.json`, `spreads.json` in your working directory
 3. Place `iching_divination.py` and the `iching/` folder in your working directory
 4. Update the file paths in `skill.md` to match your environment
