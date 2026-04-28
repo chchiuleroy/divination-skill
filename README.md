@@ -34,7 +34,7 @@ Upload the following files to your repository:
 
 | File / Folder | Description |
 |---|---|
-| `.claude/skills/divination/skill.md` | Skill definition (triggers, execution flow, output format) |
+| `skill.md` | Skill definition (triggers, execution flow, output format) |
 | `tarot_cli.py` | Tarot card drawing CLI |
 | `tarot_cards.json` | 78-card dataset with Chinese/English names, keywords, elements, astrology |
 | `spreads.json` | 6 Tarot spread definitions |
