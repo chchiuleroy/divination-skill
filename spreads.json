@@ -1,0 +1,127 @@
+{
+  "spreads": [
+    {
+      "id": "single",
+      "name": "單張牌",
+      "name_en": "Single Card",
+      "card_count": 1,
+      "description": "快速指引，適合每日抽牌或簡單問題",
+      "positions": [
+        { "index": 0, "name": "今日訊息 / 答案", "description": "針對你的問題給出核心指引" }
+      ]
+    },
+    {
+      "id": "three_card",
+      "name": "三張牌陣",
+      "name_en": "Three Card Spread",
+      "card_count": 3,
+      "description": "最常用的牌陣，靈活多用途",
+      "variants": [
+        {
+          "name": "過去・現在・未來",
+          "positions": [
+            { "index": 0, "name": "過去", "description": "影響當前情況的過去因素" },
+            { "index": 1, "name": "現在", "description": "目前的狀態與核心能量" },
+            { "index": 2, "name": "未來", "description": "若照此趨勢發展的可能結果" }
+          ]
+        },
+        {
+          "name": "狀況・行動・結果",
+          "positions": [
+            { "index": 0, "name": "狀況", "description": "當前情況的本質" },
+            { "index": 1, "name": "行動", "description": "建議採取的行動" },
+            { "index": 2, "name": "結果", "description": "行動後可能的結果" }
+          ]
+        },
+        {
+          "name": "心・身・靈",
+          "positions": [
+            { "index": 0, "name": "心智", "description": "思想與心理層面" },
+            { "index": 1, "name": "身體", "description": "物質與現實層面" },
+            { "index": 2, "name": "靈性", "description": "靈魂與更高層面的指引" }
+          ]
+        },
+        {
+          "name": "選項A・選項B・建議",
+          "positions": [
+            { "index": 0, "name": "選項A", "description": "第一個選擇的能量與結果" },
+            { "index": 1, "name": "選項B", "description": "第二個選擇的能量與結果" },
+            { "index": 2, "name": "建議", "description": "塔羅給出的最終建議" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "celtic_cross",
+      "name": "凱爾特十字",
+      "name_en": "Celtic Cross",
+      "card_count": 10,
+      "description": "最完整的傳統牌陣，適合深度解讀複雜問題",
+      "positions": [
+        { "index": 0, "name": "核心", "description": "問題的核心或當前狀態" },
+        { "index": 1, "name": "交叉（挑戰）", "description": "阻礙或影響核心的力量（此牌無論方向均以正位解讀）" },
+        { "index": 2, "name": "遠因（根基）", "description": "過去的遠因或潛意識基礎" },
+        { "index": 3, "name": "近因（過去）", "description": "近期剛發生或正在消退的影響" },
+        { "index": 4, "name": "可能的未來（頭頂）", "description": "最佳可能結果或意識目標" },
+        { "index": 5, "name": "近未來", "description": "即將發生的事件或能量" },
+        { "index": 6, "name": "自我看法", "description": "問卜者如何看待自己" },
+        { "index": 7, "name": "外在影響", "description": "他人或環境的看法與影響" },
+        { "index": 8, "name": "希望與恐懼", "description": "內心深處的期望或擔憂" },
+        { "index": 9, "name": "最終結果", "description": "整體情況的最終走向" }
+      ]
+    },
+    {
+      "id": "horseshoe",
+      "name": "馬蹄形牌陣",
+      "name_en": "Horseshoe Spread",
+      "card_count": 7,
+      "description": "適合檢視一個情況的多個面向",
+      "positions": [
+        { "index": 0, "name": "過去", "description": "過去對現在的影響" },
+        { "index": 1, "name": "現在", "description": "當前情況" },
+        { "index": 2, "name": "隱藏影響", "description": "看不見的潛在因素" },
+        { "index": 3, "name": "障礙", "description": "需要克服的挑戰" },
+        { "index": 4, "name": "外在影響", "description": "周圍環境與他人的影響" },
+        { "index": 5, "name": "建議", "description": "最佳的行動方向" },
+        { "index": 6, "name": "結果", "description": "可能的最終結果" }
+      ]
+    },
+    {
+      "id": "relationship",
+      "name": "關係牌陣",
+      "name_en": "Relationship Spread",
+      "card_count": 6,
+      "description": "專門用於解讀兩人之間的關係",
+      "positions": [
+        { "index": 0, "name": "你", "description": "你在這段關係中的能量與狀態" },
+        { "index": 1, "name": "對方", "description": "對方在這段關係中的能量與狀態" },
+        { "index": 2, "name": "關係基礎", "description": "這段關係建立的基礎" },
+        { "index": 3, "name": "當前動態", "description": "目前關係的互動模式" },
+        { "index": 4, "name": "挑戰", "description": "關係中需要面對的課題" },
+        { "index": 5, "name": "潛力", "description": "這段關係的未來可能性" }
+      ]
+    },
+    {
+      "id": "year_ahead",
+      "name": "年度牌陣",
+      "name_en": "Year Ahead Spread",
+      "card_count": 13,
+      "description": "預覽未來一年每月的主要能量，加上年度總覽",
+      "positions": [
+        { "index": 0, "name": "一月", "description": "一月的主要能量" },
+        { "index": 1, "name": "二月", "description": "二月的主要能量" },
+        { "index": 2, "name": "三月", "description": "三月的主要能量" },
+        { "index": 3, "name": "四月", "description": "四月的主要能量" },
+        { "index": 4, "name": "五月", "description": "五月的主要能量" },
+        { "index": 5, "name": "六月", "description": "六月的主要能量" },
+        { "index": 6, "name": "七月", "description": "七月的主要能量" },
+        { "index": 7, "name": "八月", "description": "八月的主要能量" },
+        { "index": 8, "name": "九月", "description": "九月的主要能量" },
+        { "index": 9, "name": "十月", "description": "十月的主要能量" },
+        { "index": 10, "name": "十一月", "description": "十一月的主要能量" },
+        { "index": 11, "name": "十二月", "description": "十二月的主要能量" },
+        { "index": 12, "name": "年度主題", "description": "整年的核心主題與課題" }
+      ]
+    }
+  ]
+}
